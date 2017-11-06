@@ -3,6 +3,12 @@
     //=============================================================================================================
 "item_beta_boots" 
 {
+    // Tags & Alias
+    //-------------------------------------------------------------------------------------------------------------
+	
+    "ItemShopTags" "speed" // int;str;agi;mana_pool;health_pool;hard_to_tag
+    "ItemAliases" "beta;beta_boots;boots;" // this;appears_in;search
+	
     // General
     //-------------------------------------------------------------------------------------------------------------
     "ID"           "2000"
@@ -10,7 +16,7 @@
     "AbilityTextureName" "item_beta_boots"
     "Model"        "models/props_gameplay/recipe.vmdl" 
     "Effect"       "particles/generic_gameplay/dropped_item.vpcf"
-    "ItemQuality"  "artifact"
+    "ItemQuality"  "common"
 
     // Basic Rules
     //-------------------------------------------------------------------------------------------------------------
