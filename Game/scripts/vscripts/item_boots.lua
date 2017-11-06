@@ -7,7 +7,7 @@
     "Effect"       "particles/generic_gameplay/dropped_item.vpcf"
     "ItemQuality"  "artifact"
 
-    "ItemCost"     "322"
+    "ItemCost"     "450"
     "ItemKillable" "0" 
     "ItemSellable" "1"
     "ItemPurchasable" "1"
@@ -39,8 +39,8 @@
             "Attributes" "MODIFIER_ATTRIBUTE_MULTIPLE"
             "Properties"
             {
-                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "100t"
-				 "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "200"
+                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "100"
+				 "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "2000"
             }
         } 
     }
