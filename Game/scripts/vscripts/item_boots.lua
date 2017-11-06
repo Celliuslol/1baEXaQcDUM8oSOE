@@ -1,18 +1,46 @@
-"item_boots" 
+//=================================================================================================================
+    // Beta Boots
+    //=============================================================================================================
+"item_beta_boots" 
 {
-    "ID"           "1100"
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "ID"           "2000"
     "BaseClass"    "item_datadriven"
-    "AbilityTextureName" "item_boots"
+    "AbilityTextureName" "item_beta_boots"
     "Model"        "models/props_gameplay/recipe.vmdl" 
     "Effect"       "particles/generic_gameplay/dropped_item.vpcf"
     "ItemQuality"  "artifact"
+
+    // Basic Rules
+    //-------------------------------------------------------------------------------------------------------------
 
     "ItemCost"     "450"
     "ItemKillable" "0" 
     "ItemSellable" "1"
     "ItemPurchasable" "1"
-    "ItemDroppable" "1"
+    "ItemDroppable" "0"
     "ItemShareability" "ITEM_NOT_SHAREABLE"
+
+        // Stock
+    //-------------------------------------------------------------------------------------------------------------
+
+	"ItemStockMax" "1"
+    "ItemStockTime" "100"
+    "ItemStockInitial" "3"
+
+        // Ownership
+    //-------------------------------------------------------------------------------------------------------------
+
+        // Charges
+    //-------------------------------------------------------------------------------------------------------------
+
+    "ItemInitialCharges" "1" //How many charges should the item start with - Tango x3
+    "ItemDisplayCharges" "1" //Hide the charges of the item - Aegis
+    "ItemRequiresCharges" "0" //The active ability needs charges to be used - Urn
+
+        // Stacking, Consumable
+    //-------------------------------------------------------------------------------------------------------------
 
     "SideShop"     "1" 
     "SecretShop"   "0"
@@ -35,11 +63,10 @@
         "modifier_item_custom"
         {
             "Passive"  "1"
-            "IsHidden" "1" 
+            "IsHidden" "0" 
             "Attributes" "MODIFIER_ATTRIBUTE_MULTIPLE"
             "Properties"
             {
-                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "100"
 				 "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "2000"
             }
         } 
