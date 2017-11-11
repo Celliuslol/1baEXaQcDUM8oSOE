@@ -1,0 +1,8 @@
+heroesrift
+{
+	material materials/overviews/heroesrift.vmat
+	pos_x -9984
+	pos_y 9984
+	scale 19.500
+}
+

@@ -11,8 +11,8 @@
   <Lang>English</Lang>
   <HighSetts>
     <MarginWidth>25</MarginWidth>
-    <Font>Consolas</Font>
-    <FontSize>10</FontSize>
+    <Font>Microsoft Sans Serif</Font>
+    <FontSize>14</FontSize>
     <Bold>false</Bold>
     <Italic>false</Italic>
     <Underline>false</Underline>
@@ -25,7 +25,7 @@
   </HighSetts>
   <HighSettsLua>
     <Font>Arial</Font>
-    <FontSize>11</FontSize>
+    <FontSize>14</FontSize>
     <Bold>false</Bold>
     <Italic>false</Italic>
     <DigitsColor>#00008b</DigitsColor>

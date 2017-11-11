@@ -1,8 +1,0 @@
-herosrift_newminimap
-{
-	material materials/overviews/herosrift_newminimap.vmat
-	pos_x -9984
-	pos_y 9984
-	scale 19.500
-}
-
