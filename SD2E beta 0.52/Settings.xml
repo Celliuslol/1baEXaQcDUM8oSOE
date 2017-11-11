@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DotaPath>E:\SteamLibrary\steamapps\common\dota 2 beta\</DotaPath>
+  <HideStandartDota2Projects>true</HideStandartDota2Projects>
+  <LoadSaveOpenedObjects>true</LoadSaveOpenedObjects>
+  <OpenLastOpenedProject>false</OpenLastOpenedProject>
+  <LastOpenedProjects />
+  <ShowFullLuaFileNames>true</ShowFullLuaFileNames>
+  <EditorPriority>GuiEditor</EditorPriority>
+  <WriteHeadLinkOnSave>true</WriteHeadLinkOnSave>
+  <Lang>English</Lang>
+  <HighSetts>
+    <MarginWidth>25</MarginWidth>
+    <Font>Consolas</Font>
+    <FontSize>10</FontSize>
+    <Bold>false</Bold>
+    <Italic>false</Italic>
+    <Underline>false</Underline>
+    <DefaultWordColor>#FF000000</DefaultWordColor>
+    <CommentColor>#FF808080</CommentColor>
+    <KeyColor>#FF0094FF</KeyColor>
+    <KVBlockColor>#FF7F3300</KVBlockColor>
+    <ValueNumberColor>#FFB200FF</ValueNumberColor>
+    <ValueStringColor>#FFFFA366</ValueStringColor>
+  </HighSetts>
+  <HighSettsLua>
+    <Font>Arial</Font>
+    <FontSize>11</FontSize>
+    <Bold>false</Bold>
+    <Italic>false</Italic>
+    <DigitsColor>#00008b</DigitsColor>
+    <BlockCommentColor>#008000</BlockCommentColor>
+    <LineCommentsColor>#008000</LineCommentsColor>
+    <StringsColor>#00008b</StringsColor>
+    <UserFunctionsColor>#191970</UserFunctionsColor>
+    <PunctuationsColor>#006400</PunctuationsColor>
+    <KeyWordsColor>#0000ff</KeyWordsColor>
+    <TablesColor>#00008b</TablesColor>
+    <TodoColor>#ff0000</TodoColor>
+    <HackColor>#EEE0E000</HackColor>
+    <CharColor>#00008b</CharColor>
+    <MultilineStringsColor>#00008b</MultilineStringsColor>
+  </HighSettsLua>
+</Settings>
